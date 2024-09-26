@@ -1,0 +1,20 @@
+# Ignore everything
+
+*.exe
+*.ilk
+*.png
+*.obj
+
+
+
+# But not these file types
+!*main.cpp
+!*.pdf
+# !*.png
+
+
+# Also include these directories
+! images/
+
+# Also include .gitignore file
+!.gitignore
